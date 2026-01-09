@@ -2,7 +2,7 @@ import http from "http";
 import httpProxy from "http-proxy";
 
 const proxy = httpProxy.createProxyServer({
-  target: "https://assured-home-dream.lovable.app",
+  target: "https://bright-bounce-build.lovable.app",
   changeOrigin: true,
   secure: true,
 });
